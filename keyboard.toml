@@ -1,16 +1,16 @@
 # Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
 [keyboard]
-name = "RMK Keyboard"
-product_name = "RMK Keyboard"
+name = "RMK S3 TEST"
+product_name = "RMK S3 TEST"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "haobo"
-chip = "rp2040"
+manufacturer = "Betamda"
+chip = "esp32s3"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-output_pins = ["PIN_19", "PIN_20", "PIN_21"]
+input_pins = ["GPIO4", "GPIO7", "GPIO8", "GPIO9"]
+output_pins = ["GPIO10", "GPIO20", "GPIO21"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
